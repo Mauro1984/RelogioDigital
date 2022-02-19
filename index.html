@@ -9,24 +9,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-seri
 }
+
 body{
   display: flex;
-  justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: #060a1f;
+  justify-content: center;
+  background: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80") no-repeat fixed center;
   text-transform: uppercase;
+}
+body hr:last-child{
+  margin-top: 121px;
+}
+#clock{
+  background: #060a1f;
+  box-shadow: 1px 100px 50px #060a1f;
 }
 #clock h2{
   position: relative;
   display: block;
   color: #fff;
   margin: 10px auto;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 0.4em;
-  font-size: 0.8em;
+  font-size: 1.2em;
   text-align:center;
 }
 #clock #time{
@@ -67,6 +74,7 @@ body{
 #clock #time div:last-child span:nth-child(2){
   background: #ec0062;
 }
+
 </style>
   <body>
   <div id="clock">
